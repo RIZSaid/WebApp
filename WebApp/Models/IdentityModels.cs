@@ -21,9 +21,9 @@ namespace WebApp.Models
             return userIdentity;
         }
 
-        public Task<ClaimsIdentity> GenerateUserIdentityAsync(ApplicationUserManager manager)
+        public Task<ClaimsIdentity> GenerateUserIdentityAsync(ApplicationUserManager manager__)
         {
-            return Task.FromResult(GenerateUserIdentity(manager));
+            return Task.FromResult(GenerateUserIdentity(manager__));
         }
     }
 
